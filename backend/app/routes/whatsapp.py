@@ -4,7 +4,7 @@ import logging
 router = APIRouter(prefix="/webhook", tags=["whatsapp"])
 
 # Verify Token for Meta
-WHATSAPP_VERIFY_TOKEN = "ZEAL_SECRET_TOKEN"
+WHATSAPP_VERIFY_TOKEN = "NDBIYBCIURUCOINCN3445"
 
 @router.get("/whatsapp")
 async def verify_webhook(request: Request):
