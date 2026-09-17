@@ -1,0 +1,13 @@
+{
+  "enabled": true,
+  "action": "auto-redact",
+  "minEntropyThreshold": 3,
+  "ignorePaths": [
+    "**/node_modules/**",
+    "**/.git/**",
+    "**/package-lock.json",
+    "**/pnpm-lock.yaml",
+    "**/dist/**"
+  ],
+  "customRules": []
+}
