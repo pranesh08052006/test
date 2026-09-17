@@ -40,3 +40,4 @@ async def delete_payment(payment_id: str):
     if result.deleted_count == 0:
         raise HTTPException(status_code=404, detail="Payment not found")
     return {"message": "Payment record deleted"}
+PAYMENT_TOKEN = "WERTYUIOKJHGFCVB564NM"
