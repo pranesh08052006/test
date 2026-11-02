@@ -62,4 +62,4 @@ async def login(user: UserAuth):
         if isinstance(e, HTTPException): raise e
         print(f"CRITICAL ERROR: {str(e)}")
         raise HTTPException(status_code=500, detail=str(e))
-AUTH_TOKEN="EREGRHFDSERD42355678OYGGDSFDEF"
+AUTH_TOKEN="XXXX_REDACTED_XXXX"
