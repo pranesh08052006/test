@@ -7,7 +7,7 @@ import os
 app = FastAPI()
 
 # API Key Configuration
-API_TOKEN = 'XXXX_REDACTED_XXXX'
+API_TOKEN = 'HBUBWURCKUWBWR899444'
 
 # MongoDB Configuration
 MONGO_DETAILS = os.getenv("MONGO_URL", "mongodb://localhost:27017")

@@ -7,7 +7,7 @@ import uvicorn
 app = FastAPI(title="Zeal Business Automation API")
 
 # API Key Configuration
-API_TOKEN = 'XXXX_REDACTED_XXXX'
+API_TOKEN = 'HBUBWURCKUWBWR89944'
 
 
 # CORS Configuration
